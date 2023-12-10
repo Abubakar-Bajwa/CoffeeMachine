@@ -28,7 +28,7 @@ def transaction(money, drink_cost):
         profit += drink_cost
         return True
     else:
-        print("That is not enough money brokie")
+        print("That is not enough money")
         return False
 
 
